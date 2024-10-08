@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6b4c4d3b209b42cebde76d9f12f4f874" Name="Diagram1">
+        <EntityTypeShape EntityType="masterModel.Category" Width="1.5" PointX="0.5" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.Customer" Width="1.5" PointX="8.25" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.Order" Width="1.5" PointX="6.25" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.OrderDetail" Width="1.5" PointX="4.25" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.Product" Width="1.5" PointX="2.375" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.User" Width="1.5" PointX="10.25" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.MSreplication_options" Width="1.5" PointX="6.25" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.spt_fallback_db" Width="1.5" PointX="10.25" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.spt_fallback_dev" Width="1.5" PointX="8.375" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.spt_fallback_usg" Width="1.5" PointX="0.5" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.spt_monitor" Width="1.5" PointX="2.375" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.spt_values" Width="1.5" PointX="4.375" PointY="7.375" IsExpanded="true" />
+        <AssociationConnector Association="masterModel.FK_Pro_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="masterModel.FK__Order__CustomerI__2F2FFC0C" ManuallyRouted="false" />
+        <AssociationConnector Association="masterModel.FK_User_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="masterModel.FK__OrderDeta__Order__33008CF0" ManuallyRouted="false" />
+        <AssociationConnector Association="masterModel.FK__OrderDeta__Produ__320C68B7" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
